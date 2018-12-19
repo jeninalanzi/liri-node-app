@@ -24,11 +24,17 @@ To create a successful Language Interpretation & Recognition Interface (LIRI) th
     >`movie-this <insert movie title here>`
     * If title left blank, LIRI will search OMDB for information on the movie, "Mr. Nobody."
 
+        ![movie-this only!](ss2.png)
+
     * If you do type a movie in, LIRI will tell you all about that movie!
+
+        ![movie-this <lord of the rings>](ss5.png)
 
     >`concert-this <insert artist/band name here>`
     * Type an artist or a band you like and LIRI will show you all the concerts lined up for that band, as well as the dates, venues, and locations of those events!
     * Data provided by Bands In Town
+
+        ![concert-this <Jinjer>](ss4.png)
     
     >`spotify-this-song <insert song title/track here>`
     * Using this command tells LIRI to show you:
@@ -36,10 +42,16 @@ To create a successful Language Interpretation & Recognition Interface (LIRI) th
         * The album it belongs in
         * A link to preview that song
 
+        ![spotify-this-song <Dreadful Moments>](ss6.png)
+
     > `do-what-it-says`
     * No extra command line input needed
     * LIRI will read the random.txt file (included in the directory) and run the command inside! The search query it runs will also be in the file
     * Any of our pre-existing commands above can be edited in the .txt file and used!
+
+        ![random.txt](ss1.png)
+
+        ![do-what-it-says](ss7.png)
 
 
 
